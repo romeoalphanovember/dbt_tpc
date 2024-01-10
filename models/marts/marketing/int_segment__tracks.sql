@@ -1,4 +1,4 @@
-
+/*
 
 {% set sources = ['dbtc', 'yahooquery'] -%}
 
@@ -40,4 +40,4 @@ unioned_sources as (
     {% endfor -%}
 )
 
-select * from unioned_sources
+select * from unioned_sources */
