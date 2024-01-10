@@ -4,7 +4,7 @@ version: 2
 sources:
   - name: tpch
     description: '{{ doc("tpch_source") }}'
-    database: doug_demo_v2
+    database: tpc_raw_data
     schema: tpch
     freshness:
       warn_after: {count: 24, period: hour}
@@ -231,8 +231,8 @@ sources:
             description: '{{ doc("comment") }}'
 
   - name: tpch_snapshot
-    database: analytics
-    schema: dbt_mwinkler
+    database: tpch_raw_data
+    schema: tpch_snapshot
     tables:
       - name: customer_snapshot_src
         description: slowly changing dimension table
