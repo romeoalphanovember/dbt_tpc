@@ -1,7 +1,7 @@
 {% snapshot tpch_supplier_snapshot %}
 
 {{ config(
-    target_database='doug_demo_v2',
+    target_database='tpc_raw_data',
     target_schema='snapshots',
     unique_key='s_suppkey',
     strategy='timestamp',
