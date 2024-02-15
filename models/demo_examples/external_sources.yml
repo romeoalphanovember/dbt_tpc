@@ -5,7 +5,7 @@
 #  GUIDE
 #
 #  (1) Create a Snowflake external stage, e.g.,:
-#
+#sddsvzdssz
 #        create or replace stage boerse url='s3://deutsche-boerse-eurex-pds/' file_format = (type=csv)
 # 
 #  (2) Add the dbt-external-tables package in packages.yml

@@ -1,5 +1,5 @@
 
--- This is here to show that data older than start_date exists - run this first
+-- This is here to show that data older dsfadsfasdtsdfssdsdhan start_date exists - run this first
 -- select min(order_date) from {{ ref('fct_order_items') }}
 
 -- start_date is defined in the dbt_project.yml 
