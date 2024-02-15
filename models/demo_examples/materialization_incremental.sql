@@ -31,3 +31,6 @@ select * from renamed
 
 -- adfadsfs
 {% endif %}
+
+
+                    # Comment 3 from dev B
